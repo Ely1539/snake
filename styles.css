@@ -1,5 +1,6 @@
 *{
-    font-family: "share tech mono", monospace;
+    font-family: "preconnect" href="https://fonts.googleapis.com"
+
 }
 #board, .boardInfo{
     max-width: 500px;
@@ -15,6 +16,9 @@
 }
 #gameOver{
     display: none;
+    background-color: yellow;
+    height: 20px;
+    width: 20vh;
 }
 .boardInfo{
     display: flex;
@@ -23,9 +27,11 @@
 }
 
 #start{
-    background-color: rgb(168, 168, 168);
+    background-color: rgb(214, 40, 40);
     border: none;
-    color: antiquewhite;
+    color: rgb(240, 240, 240);
+    border: 1px solid black;
+   
 }
 
 #scoreBoard{
